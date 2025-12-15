@@ -99,7 +99,7 @@ public class RPGFunciones{
         clase = claseIngresada;
         vida = vidaIngresada;
         fuerza = fuerzaIngresada;
-        oro = 10.0; // double para cumplir consigna
+        oro = 10.0; 
         personajeCreado = true;
 
         System.out.println("\n✅ Personaje creado:");
@@ -152,7 +152,7 @@ public class RPGFunciones{
 
         System.out.println("\n--- Batalla (5 turnos) ---");
 
-        int vidaJugador = vida;   // copia para no “matar” el personaje si no te lo piden
+        int vidaJugador = vida;  
         int vidaEnemigo = 60;
         int fuerzaEnemigo = 12;
 
@@ -185,9 +185,7 @@ public class RPGFunciones{
             System.out.println("\n⏳ Fin de 5 turnos. Ambos siguen de pie.");
         }
 
-        // Si tu instrucción dice que la batalla afecta la vida real del personaje,
-        // descomenta esta línea:
-        // vida = vidaJugador;
+      
     }
 
     // ===== Inventario (foreach) =====
